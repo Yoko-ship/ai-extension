@@ -5,7 +5,7 @@ import searchImage from "../public/search_24dp_CCC_FILL0_wght400_GRAD0_opsz24.sv
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 function App() {
-  const apiKey = "YOUR API KEY";
+  const apiKey = "AIzaSyC3PIatiR6pOqjtrHHb470duztrKVAeDWU";
 
   const [text, setText] = useState("");
   const [responses, setResponses] = useState("");
