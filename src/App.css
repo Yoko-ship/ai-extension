@@ -1,0 +1,56 @@
+body {
+  background-color: #3C3C3C;
+  color: white;
+  @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap');
+  font-family: Parkinsans;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+}
+
+.text-para {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  white-space: normal;
+
+}
+
+.responses {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  white-space: normal;
+  height: 1500px;
+
+}
+
+.input-btn {
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+.input-btn input {
+  padding: 10px;
+  background-color: #0F0F0F;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 40px 0 0 40px;
+  width: 100%;
+
+}
+
+.input-btn button {
+  border: none;
+  background: #2C2926;
+  cursor: pointer;
+  border-radius: 0 40px 40px 0;
+}
